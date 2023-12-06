@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glory Glory Man-United</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <a href="index.html">
+                    <h1>Glory Glory Man-United</h1>
+                </a>
+            </div>
+            <nav>
+                <ul id="topMenu">
+                    <li><a href="#">단체 여행<span>▼</span></a>
+                        <ul>
+                            <li><a href="#">회사 연수</a></li>
+                            <li><a href="#">수학 여행</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">맞춤 여행<span>▼</span></a>
+                        <ul>
+                            <li><a href="#">알렉스 퍼거슨 시대</a></li>
+                            <li><a href="#">SIUUUU 체험</a></li>
+                            <li><a href="#">우리는 축구를 못해요</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">갤러리</a></li>
+                    <li><a href="#">문의하기</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="slideshow">
+            <div id="slides">
+                <img src="images/photo-1.jpg" alt="">
+                <img src="images/photo-2.jpg" alt="">
+                <img src="images/photo-3.jpg" alt="">
+                <button id="prev">&lang;</button>
+                <button id="next">&lang;</button>
+            </div>
+        </div>
+        <div id="contents">
+            <div id="tabmenu">
+                <input type="radio" id="tab1" name="tabs" checked>
+                <label for="tab1">공지사항</label>
+                <input type="radio" id="tab2" name="tabs">
+                <label for="tab2">갤러리</label>
+
+                <div id="notice" class="tabcontent">
+                    <h2>공지사항 내용</h2>
+                    <ul>
+                        <li>이번주 경기 결과.</li>
+                        <li>팀 일정</li>
+                        <li>올해 여름 이적시장 경과.</li>
+                        <li>올해 겨울 이적시장 경과.</li>
+                    </ul>
+                </div>
+
+                <div id="gallery" class="tabcontent">
+                    <h2>갤러리 내용</h2>
+                    <ul>
+                        <li><img src="images/photo-1.jpg"></li>
+                        <li><img src="images/photo-2.jpg"></li>
+                        <li><img src="images/photo-3.jpg"></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="links">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span id="quick-icon1"></span>
+                            <p>글레이저 나가라</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span id="quick-icon2"></span>
+                            <p>"맨유는 강팀이 아니야."</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span id="quick-icon3"></span>
+                            <p>문의하기</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div id="bottommenu">
+                <ul>
+                    <li><a href="#">회사 소개</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">약관</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+                <div id="sns">
+                    <ul>
+                        <li><a href="#"><img src="images/sns-1.jpg"></a></li>
+                        <li><a href="#"><img src="images/sns-2.jpg"></a></li>
+                        <li><a href="#"><img src="images/sns-3.jpg"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="company">
+                <p>대구광역시 북구 대학로 80 (산격동) 경북대학교 대구캠퍼스</p>
+            </div>
+        </footer>
+    </div>
+    <script src="slideshow.js/"></script>
+</body>
+</html>
